@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>operands</title>
+</head>
+<body>
+<SCRIPT>
+  let x = 1;
+  x = -x;
+  alert(x);
+
+  let z = 1, y = 3;
+  alert(z - y);
+
+  let s = "my" + "string";
+  alert(s);
+
+  alert('1' + 2);
+  alert(2 + 2 + '1');
+
+  alert(+true);
+  alert(+"");
+
+  let apples = "2";
+  let oranges = "3";
+
+  // можно было бы использовать Number(apples) + Number(oranges)
+  alert(+apples + +oranges);
+
+  let n = 2;
+  n = n + 5;
+  n = n * 5;
+  alert("It's new value of variable " + n);
+
+  let o = 8;
+  o *= 3 + 2; // same as the o = o * ( 3 + 2)
+  alert("It's new value of variable " + o);
+
+  let counter1 = 2;
+  counter1++;
+  alert(counter1);
+
+  let counter2 = 3;
+  counter2--;
+  alert(counter2);
+
+  let h = (n + o, x + y);
+  alert(h);
+
+
+
+</SCRIPT>
+</body>
+</html>

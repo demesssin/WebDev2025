@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if</title>
+</head>
+<body>
+
+<script>
+    let year = prompt('In which year was the ECMAScript-2015 specification published?', '');
+
+    if (year < 2015) {
+        alert( 'Too early...' );
+    } else if (year > 2015) {
+        alert( 'Too late' );
+    } else {
+        alert( 'Exactly!' );
+    }
+
+    let accessAllowed = "Access allowed baby";
+    let age = prompt("What is your age?", '');
+    if (age < 18){
+        alert("no no, u dont pass face controle")
+    } else {
+        alert(accessAllowed);
+    }
+
+    let age1 = prompt('age?', 18);
+
+    let message = (age1 < 3) ? 'Hi, baby!' :
+        (age1 < 18) ? 'Hello!' :
+            (age1 < 100) ? 'Greetings!' :
+                'What an unusual age!';
+
+    alert( message );
+
+    let firstName = "";
+    let lastName = "";
+    let nickName = "NNNNNNNNNNNNNNNURIIIIIIIIIIIIIIIIII";
+
+    alert( firstName || lastName || nickName || "Anonymous"); // NNNNNNNNNNNNNNNURIIIIIIIIIIIIIIIIII
+
+    let user;
+    alert(user ?? "llalala");
+
+    let user1 = "santa claus"; //         || returns the first truthy value.
+    alert(user1 ?? "hahaha");//           ?? returns the first defined value.
+
+    let height = 0;
+
+    alert(height || 100); // 100
+    alert(height ?? 100); // 0
+</script>
+
+</body>
+</html>

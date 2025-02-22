@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>funcobj</title>
+</head>
+<body>
+<script>
+    function makeUser(name, age){
+        return{
+            name: name,
+            age: age,
+        };
+    }
+    let user = makeUser("Aiganym", 20);
+    alert(user.name);
+</script>
+</body>
+</html>

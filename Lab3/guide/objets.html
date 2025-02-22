@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>objects</title>
+</head>
+<body>
+<script>
+  let user = {
+    name: "Aiganym",
+    age: 30,
+    "likes birds" : true
+  };
+  alert(user.name);
+  alert(user.age);
+  alert(user["likes birds"])
+
+  let game = {};
+  // set
+  game["likes birds"] = true;
+
+  // get
+  alert(game["likes birds"]);
+
+  // delete
+  delete game["likes birds"];
+
+  let key = "kotakty je";
+  game[key] = false;
+  alert(game[key]);
+
+  let blackOps = {
+    name: "Alex Mason",
+    operDate: "3 February, 1968"
+  };
+
+  let res = prompt("What do you want to know about the agent?", "name");
+  alert(blackOps[res]);
+
+  let fruit = prompt("Which fruit to buy?", "apple");
+
+  let prices = {
+    "banana": 150,
+    "mandarin": 1200,
+    "apple": 300,
+    "orange": 500
+  };
+
+  let bag = {
+    [fruit]: prices[fruit] ?? "Неизвестный фрукт"
+  };
+
+  alert(JSON.stringify(bag)); // Выведет объект в виде строки
+
+
+</script>
+</body>
+</html>
