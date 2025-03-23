@@ -40,4 +40,10 @@ export class AlbumsService {
       map((photos: Photo[]) => photos.filter((photo: Photo) => photo.albumId === albumId))
     );
   }
+  updateAlbum(album: Album): Observable<Album> {
+    return this.http.put<Album>(`${this.albumsUrl}/${album.id}`, album);
+  }
+  addAlbum(album: Album): Observable<Album> {
+    return this.http.post<Album>(this.albumsUrl, album);
+  }
 }

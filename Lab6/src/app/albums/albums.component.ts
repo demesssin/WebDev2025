@@ -27,10 +27,13 @@ export class AlbumsComponent implements OnInit{
       this.getAlbums();
   }
 
-  addAlbum(){
-    this.albumService.addAlbum(this.newAlbum).subscribe((album)=>{
-      this.albums.push(album);
-    })
+  addAlbum() {
+    if (this.newAlbum.title.trim()) {
+      this.albumService.addAlbum(this.newAlbum).subscribe((album) => {
+        this.albums.push(album);
+        this.newAlbum.title = '';
+      });
+    }
   }
 
   getAlbums(){
@@ -40,8 +43,8 @@ export class AlbumsComponent implements OnInit{
     })
   }
 
-  deleteAlbum(id: number){
-    this.albums = this.albums.filter(p => p.id !== id)
-    this.albumService.deleteAlbum(id).subscribe()
+  deleteAlbums(id: number){
+    this.albums.filter((album) => album.id !== id)
+
   }
 }

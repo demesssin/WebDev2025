@@ -19,14 +19,12 @@
       <p>⭐ {{ product.rating }}</p>
       <p>❤️ {{product.likes}}</p>
 
-      <a [href]="product.link" target="_blank">Подробнее</a>
+      <button (click)="openProductDetails(product.id)">Подробнее</button>
 
       <button (click) = "likeProduct(product.id)">👍 Like</button>
       <button (click) = "removeProduct(product.id)">🗑 Удалить</button>
 
       <div class = 'share-buttons'>
-        <button (click)="shareProduct(product.link, 'whatsapp')">📲 Поделиться в WhatsApp</button>
-        <button (click)="shareProduct(product.link, 'telegram')">📩 Поделиться в Telegram</button>
       </div>
     </div>
   </div>
