@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+    }
+    #instagram-pics {
+      width: 400px;
+      margin-top: 30px;
+      margin-left: 350px;
+    }
+    .login-box {
+      position: relative;
+      background: white;
+      padding: 40px;
+      width: 250px;
+      border: 1px solid gray;
+      text-align: center;
+      margin-left: 800px;
+      margin-top: -610px;
+    }
+    .login-box img {
+      width: 180px;
+      margin-bottom: 15px;
+    }
+    .input-box {
+      width: 100%;
+      padding: 10px;
+      margin: 4px 0;
+      border: 1px solid gray;
+      font-size: 12px;
+      border-radius: 3px;
+      background-color: #f8f8f8;
+    }
+    .input-box:focus {
+      border-color: blue;
+      box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+      outline: none;
+    }
+    .login-btn {
+      width: 100%;
+      background-color: #1877f2;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .login-btn:hover {
+      background-color: #166fe5;
+    }
+    .divider-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 15px 0;
+    }
+    .divider {
+      flex: 1;
+      height: 1px;
+      background: #ddd;
+    }
+    .divider-text {
+      padding: 0 10px;
+      color: gray;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .forgot-password {
+      display: block;
+      margin: 10px 0;
+      font-size: 14px;
+      color: gray;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .forgot-password:hover {
+      text-decoration: underline;
+    }
+    .with-facebook {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #1e90ff;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .with-facebook img {
+      width: 25px;
+      margin-right: 8px;
+      margin-top: 12px;
+    }
+    .with-facebook:hover {
+      text-decoration: underline;
+    }
+    .register-box {
+      width: 320px;
+      padding: 15px;
+      border: 1px solid gray;
+      text-align: center;
+      background: white;
+      margin-left: 800px;
+      margin-top: 10px;
+    }
+    .register-box a {
+      color: #1e90ff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .register-box a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<img src="instagram.jpg" alt="instagram-pic" id="instagram-pics">
+
+<div class="container">
+  <div class="login-box">
+    <img src="instagram-wrift.jpg" alt="App Logo">
+
+    <form>
+      <input type="text" class="input-box" placeholder="Телефон, имя пользователя или эл. адрес" required>
+      <input type="password" class="input-box" placeholder="Пароль" required>
+      <button type="submit" class="login-btn">Войти</button>
+    </form>
+
+    <div class="divider-container">
+      <div class="divider"></div>
+      <span class="divider-text">или</span>
+      <div class="divider"></div>
+    </div>
+
+    <a class="with-facebook" href="https://www.facebook.com/login.php">
+      <img src="https://i.pinimg.com/474x/5b/ee/52/5bee52fa1411082205d151a185650658.jpg?nii=t" alt="Facebook"> Войти через Facebook
+    </a>
+
+    <a href="https://www.instagram.com/accounts/password/reset/" class="forgot-password">Забыли пароль?</a>
+  </div>
+
+  <div class="register-box">
+    <span style="font-size: 15px">Ещё нет аккаунта? <a href="https://www.instagram.com/accounts/emailsignup/">Зарегистрироваться</a></span>
+  </div>
+
+  <div class="app-links-container">
+    <p style="text-align: center; font-size: 14px; margin-top: 15px; margin-left: 450px;">Установите приложение</p>
+    <div class="app-links-container" style="margin-left: 850px;">
+      <a href="https://play.google.com/store/apps/details?id=com.instagram.android">
+        <img src="gp.jpg" alt="Google Play" width="120px">
+      </a>
+      <a href="https://apps.apple.com/app/instagram/id389801252">
+        <img src="appstore.jpg" alt="App Store" width="120px">
+      </a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

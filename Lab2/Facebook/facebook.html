@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook - выполните вход или зарегестрируйтесь</title>
+    <style>
+        #logo{
+            width: 300px;
+            margin-top: 180px;
+            margin-left: 250px;
+        }
+        p{
+            font-size: 25px;
+            font-family: sans-serif;
+            margin-left: 280px;
+            margin-top: 10px;
+        }
+        .login-box{
+            position: relative;
+            background: white;
+            padding: 50px;
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 255, 0.1);
+            text-align: center;
+            margin-left: 800px;
+            bottom: 250px;
+        }
+        .input-box {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid gray;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .input-box:focus {
+            border-color: blue;
+            box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+            outline: none;
+        }
+        .login-btn {
+            width: 100%;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .login-btn:hover {
+            background-color: #166fe5;
+        }
+        .forgot-password {
+            display: block;
+            margin: 10px 0;
+            font-size: 14px;
+            color: #1877f2;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+
+        .divider {
+            width: 100%;
+            height: 1px;
+            background: #ddd;
+            margin: 15px 0;
+        }
+
+        .register-btn {
+            background-color: #42b72a;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 80%;
+        }
+
+        .register-btn:hover {
+            background-color: #36a420;
+        }
+    </style>
+</head>
+<body>
+<img src="main-logo.svg" id = "logo" alt="facebook-logo">
+<p> Facebook помогает вам всегда <br> оставаться на связи и общаться со <br> своими знакомыми.</p>
+
+<div class="container">
+    <div class="login-box">
+        <form>
+            <input type="text" class="input-box" placeholder="Электронный адрес или номер телефона" required>
+            <input type="password" class="input-box" placeholder="Пароль" required>
+            <button type="submit" class="login-btn">Вход</button>
+        </form>
+
+        <a href="https://ru-ru.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" class="forgot-password">Забыли пароль?</a>
+
+        <div class="divider"></div>
+
+        <a href="https://ru-ru.facebook.com/r.php?entry_point=login"><button class="register-btn">Создать новый аккаунт</button></a>
+    </div>
+
+</div>
+
+<p style="text-align: center; font-family: sans-serif; font-size: 14px; margin-top: -230px; margin-right: -220px;">
+    <a href="https://www.facebook.com/pages/create/" style="font-weight: bold; color: black; text-decoration: none;" target="_blank">
+        Создать страницу
+    </a>
+    для знаменитости, музыкальной группы или <br> компании.
+</p>
+
+<footer class="footer" style="text-align: left; font-family: sans-serif; font-size: 14px; color: gray; margin-top: 110px; padding: 20px;">
+    <div style="max-width: 1000px; margin: 0 auto;">
+        <p style="font-size: 14px; text-align: left; margin-left: 50px;">
+            Русский · Қазақша · English (US) · Türkçe · Bahasa Indonesia · 中文(简体) · Deutsch · 한국어 · Shqipe · Español · Português (Brasil)
+        </p>
+        <hr style="border: none; height: 1px; background-color: #ddd; margin: 10px 0;">
+        <p style="font-size: 10px; text-align: left; margin-left: 50px;">
+            <a href="#" style="color: gray; text-decoration: none;">Зарегистрироваться</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Вход </a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Messenger </a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Facebook Lite </a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Видео</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Места</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Игры</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Marketplace</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Meta Pay</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Магазин Meta</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Meta Quest</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Ray-Ban Meta</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Meta AI</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Instagram</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Threads</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Благотворительные акции</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Услуги</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Центр информации о выборах</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Политика конфиденциальности</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Центр конфиденциальности</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Группы</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Информация</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Создать рекламу</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Создать Страницу</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Разработчикам</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Вакансии</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Файлы cookie</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Рекламные предпочтения</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Условия использования</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Справка</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Загрузка контактов и лица, не являющиеся пользователями</a> ·
+            <a href="#" style="color: gray; text-decoration: none;">Настройки</a>
+        </p>
+        <p style="margin-top: 10px; margin-left: 50px; font-size: 10px" >© 2025 Facebook</p>
+    </div>
+</footer>
+
+</body>
+</html>

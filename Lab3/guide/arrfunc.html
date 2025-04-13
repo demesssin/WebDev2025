@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>arrfunc</title>
+</head>
+<body>
+<script>
+    let sum = (a, b) => a**b;
+    alert(sum(5, 3))
+    let double = n => n**n;
+    alert(double(5));
+    let sayHi = () => alert("Hello");
+    sayHi();
+
+    let age = prompt("What is your age?", 18);
+    function welcome(age){
+        if (age>18){
+            alert("Hello");
+        }else{
+            alert("goodbye");
+        }
+    }
+
+    welcome(age);
+
+    let divide = (a, b) => {
+        let result = a / b;
+        return result;
+    }
+    alert(divide(125, 25));
+
+    let userName = prompt("Type your username", "");
+    let isTeaWanted = confirm("Do u want some tea?");
+    alert("Visitor " + userName);
+    alert("Tea wanted: " + isTeaWanted);
+
+    function hello(name){
+        let phrase = alert(`Hello, ${name}!`);
+        //debugger;
+        say(phrase);
+    }
+
+    function say(phrase){
+        alert(`** ${phrase}** `);
+    }
+
+    hello("John");
+    say("Hello, John!");
+
+</script>
+</body>
+</html>

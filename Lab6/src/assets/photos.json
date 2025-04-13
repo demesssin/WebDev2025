@@ -1,0 +1,37 @@
+[
+    {
+      "albumId": 1,
+      "id": 1,
+      "title": "KBTU",
+      "url": "https://avatars.mds.yandex.net/get-entity_search/2037212/1128688792/SUx182_2x",
+      "thumbnailUrl": "https://avatars.mds.yandex.net/get-entity_search/2037212/1128688792/SUx182_2x"
+    },
+    {
+      "albumId": 1,
+      "id": 2,
+      "title": "KBTU",
+      "url": "https://avatars.mds.yandex.net/i?id=300957fa3b4e5c31fa5ff16e2be0bb30323a0611-4901320-images-thumbs&n=13",
+      "thumbnailUrl": "https://avatars.mds.yandex.net/i?id=300957fa3b4e5c31fa5ff16e2be0bb30323a0611-4901320-images-thumbs&n=13"
+    },
+    {
+      "albumId": 1,
+      "id": 3,
+      "title": "Earth",
+      "url": "https://avatars.mds.yandex.net/get-entity_search/9706867/952423579/S600xU_2x",
+      "thumbnailUrl": "https://avatars.mds.yandex.net/get-entity_search/9706867/952423579/S600xU_2x"
+    },
+    {
+      "albumId": 1,
+      "id": 4,
+      "title": "Aktau",
+      "url": "https://avatars.mds.yandex.net/i?id=6636b9c3969ddd62f79204357568f172e14341fb-4713335-images-thumbs&n=13",
+      "thumbnailUrl": "https://avatars.mds.yandex.net/i?id=6636b9c3969ddd62f79204357568f172e14341fb-4713335-images-thumbs&n=13"
+    },
+    {
+      "albumId": 1,
+      "id": 5,
+      "title": "Atyrau",
+      "url": "https://avatars.mds.yandex.net/i?id=d857d51bb0bede6d93e42f6dbc22c608e6e77683-5219738-images-thumbs&n=13",
+      "thumbnailUrl": "https://avatars.mds.yandex.net/i?id=d857d51bb0bede6d93e42f6dbc22c608e6e77683-5219738-images-thumbs&n=13"
+    }
+  ]

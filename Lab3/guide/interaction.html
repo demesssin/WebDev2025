@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>interaction</title>
+</head>
+<body>
+
+<script>
+    let age = prompt("Enter your age", 100);
+    alert(`You are ${age} years old`);
+
+    let test = prompt("Type your name and student ID", '');
+    alert(test);
+
+    let isBoss = confirm('Are you boss?');
+    alert(isBoss);
+
+    let value = true;
+    alert(typeof(value));
+    value = String(value);
+    alert(typeof(value));
+
+    alert("6" / "2");
+
+    let str = "123";
+    alert(typeof str);
+    let num = Number(str);
+    let res = num % 5;
+    alert(res), alert(typeof res);
+
+    let number = Number("an arbitrary string instead of a number");
+
+    alert(number); // NaN, conversion failed
+
+</script>
+
+</body>
+</html>
